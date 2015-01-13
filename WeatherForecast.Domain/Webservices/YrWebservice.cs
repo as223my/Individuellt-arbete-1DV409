@@ -33,7 +33,6 @@ namespace WeatherForecast.Domain.Webservices
                 } 
             }
 
-            list.RemoveAt(list.Count - 1);
             return list;  
         }
 
